@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juan Pablo's Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="cat.ico">
+        <style>
+            body {
+                background-color:#63705e ;
+                background-image: url(cartographer.png);
+                display:grid;
+            }
+            h1 {
+                color: #a1aa9d;
+                font-family: 'Kdam Thmor Pro', sans-serif;
+                font-size:3rem ;
+                margin: 2px;
+            }
+            h2 {
+                color: #a1aa9d;
+                font-family: 'Kdam Thmor Pro', sans-serif;
+            }
+            #center {
+                text-align: center;
+                margin: 0.7em;
+            }
+            p {
+                color: #a1aa9d;
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+            }
+            div#introduction {
+                width:30rem;
+                background-color: #5b6656;
+                background-image: url(dark-denim-3.png);
+                text-align:center;
+                border: 2px solid #4f564d;
+                border-radius: 1rem;
+                box-shadow: 0px 1rem 6px 2px rgba(0, 0, 0, 0.574);
+                display:grid;
+                place-self:center;
+            }
+            div#icons {
+                place-self: center;
+                
+            }
+            a {
+                text-decoration: none;
+                font-family: 'Kdam Thmor Pro', sans-serif;
+                color:#a1aa9d;
+            }
+            div#contact-info {
+                text-align:center;
+            }
+
+            a#button{
+                border: 2px solid #4f564d;
+                width:200px;
+                text-align:center;
+                place-items:center;
+                border-radius:1rem;
+                background-color: #5b6656;
+                font-family: 'Kdam Thmor Pro', sans-serif;
+                display:grid;
+                
+            }
+            span#small{
+                font-size:10px;
+            }
+            span#smallh{
+                font-size:15px;
+                color:#D5ABA9;
+            }
+        </style>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        
+        <h1 id="center">Juan<br/>Plascencia</h1>
+        <div id="icons">
+            <img src="./python100.png" alt="" width="50px">
+            <img src="./html5100.png" alt="" width="50px">
+            <img src="./css3100.png" alt="" width="55px">
+            <img src="./js100.png" alt="" width="50px">
+        </div>
+
+        <div id="introduction">
+            <p>Hello! I'm currently a student learning about HTML, CSS, and JS and I'm trying to reach my goal as a Video Game Developer!</p>
+        </div>
+        <h1 id="center">Personal Projects</h1>
+        
+        <div class="project-wrapper">
+            <div class="header"><h1>My Portfolio - 2023</h1></div>
+            <div class="content">
+                <div class="project-image"><a title="My Portfolio" href="https://jpplascencia.github.io/portfolio2023/"><img src="./portfolio-preview.png" alt="My Webpage!" width="300px"></a></div>
+                <div class="project-desc"><p>The one you're currently in, It utilizes grid! I might be planning to make a new one every year to keep things fresh.</p></div>
+                <div class="project-tools">
+                    <a id="button"href="https://github.com/JPPlascencia/portfolio2023">View Source Code</a>
+                    <a id="button"href="https://jpplascencia.github.io/portfolio2023/">View it in Action</br><span id="small">(You can also click on the image.)</span></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-wrapper">
+            <div class="header"><h1>cat</h1></div>
+            <div class="content">
+                <div class="project-image"><a title="cat" href="https://jpplascencia.github.io/cat/"><img src="./cat-preview.png" alt="Still image of a cat jumping." width="300px"></a></div>
+                <div class="project-desc"><p>This is a simple animation of a cat bouncing up and down using keyframes. My original plan was to make the image get distorted when the cat lands down but i couldn't find a way.</p></div>
+                <div class="project-tools">
+                    <a id="button"href="https://github.com/JPPlascencia/cat">View Source Code</a>
+                    <a id="button"href="https://jpplascencia.github.io/cat/">View it in Action</br><span id="small">(You can also click on the image.)</span></a>
+                </div>
+            </div>
+        </div>
+
+        <h1 id="center">Class Projects</h1>
+        <div class="project-wrapper">
+            <div class="header"><h1>Good Dog Frisbee Park</h1></div>
+            <div class="content">
+                <div class="project-image"><a title="Good Dog Frisbee Park" href="https://jpplascencia.github.io/good-dog-frisbee-park/"><img src="./frisbee-dog-preview.png" alt="" width="300px"></a></div>
+                <div class="project-desc"><p>This is another simple <em>yet</em> slightly difficult animation I've done for an assignment in class. The dog captures the frisbee and it presents the company name with an ease-in animation.</p></div>
+                <div class="project-tools">
+                    <a id="button"href="https://github.com/JPPlascencia/good-dog-frisbee-park">View Source Code</a>
+                    <a id="button"href="https://jpplascencia.github.io/good-dog-frisbee-park/">View it in Action</br><span id="small">(You can also click on the image.)</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="project-wrapper">
+            <div class="header"><h1>Guess the Password</h1></div>
+            <div class="content">
+                <div class="project-image"><a title="Guess the Password" href="https://jpplascencia.github.io/guess-the-password/"><img src="./GTP-preview.png" alt="a giant 'GUESS THE PASSWORD' sign with a dog below it with 5 boxes to input text below." width="300px"></a></div>
+                <div class="project-desc"><p>A little game I've made for an assignment in class. This one utilizes JS to check if the letter the user inputted is correct or not. Take a crack at it! and if you're stuck, you know where to find the answer.</p></div>
+                <div class="project-tools">
+                    <a id="button"href="https://github.com/JPPlascencia/guess-the-password">View Source Code</a>
+                    <a id="button"href="https://jpplascencia.github.io/guess-the-password/">View it in Action</br><span id="small">(You can also click on the image.)</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="project-wrapper">
+            <div class="header"><h1>Calculator</h1></div>
+            <div class="content">
+                <div class="project-image"><a title="Calculator" href="https://jpplascencia.github.io/simple-calculator/"><img src="./calculator-preview.png" alt="Black minimal calculator." width="300px"></a></div>
+                <div class="project-desc"><p>A simple calculator I made in HTML, CSS, and JS. Nothing special.</p></div>
+                <div class="project-tools">
+                    <a id="button"href="https://github.com/JPPlascencia/simple-calculator">View Source Code</a>
+                    <a id="button"href="https://jpplascencia.github.io/simple-calculator/">View it in Action</br><span id="small">(You can also click on the image.)</span></a>
+                </div>
+            </div>
+        </div>
+        <h1 id="center">Contact Information</h1>
+        <div id="contact-info">
+            <p>If you would like to contact me, hit me up at</p>
+            <h2 id="center">jpplascencia77@gmail.com</h2>
+            <p>Other platforms:</p>
+            <div id="icons">
+                <a title="Github" href="https://github.com/JPPlascencia"><img src="github100.png" alt="Github"></a>
+            </div>
+        </div>
+        <script>
+            console.log("internal")
+        </script>
+        <script src="myscript.js"></script>    
+    </body>
+
+    <footer>
+
+    </footer>
+</html>
